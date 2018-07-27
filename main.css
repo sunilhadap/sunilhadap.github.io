@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #333333;
+	font-family: "roboto";
+}
+
+h1 {
+	font-family: "Roboto Slab";
+}
+
+.content {
+	background-color: whitesmoke;
+	max-width: 960px;
+	margin: auto;
+	padding: 40px;
+}
+
+.section {
+	background-color: whitesmoke;
+	max-width: 960px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+
+.header {
+	background-color: whitesmoke;
+	max-width: 960px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#mugshot {
+    border-radius: 50%;
+}
+
+#social-table {
+	border: 0px;
+}
+
+.pubimg {
+	width: 200px;
+	border-radius: 10px;
+}
+
+.publicationtable {
+	margin-left: 24px;
+	border-collapse: collapse;
+	border-style: hidden;
+}
+.publicationtable td {
+	border: 20px solid whitesmoke;
+}
+
+h2 {
+	margin-left: 23px;
+}
+
+ul {
+	margin: 0px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li:last-child {
+ margin-bottom: 0px;
+}
+
+/*.section:not(:first-child):not(:last-child) {
+  margin-top: 20px;
+}*/
