@@ -1,12 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
 body {
 	background-color: #333333;
 	font-family: "roboto";
 }
 
 h1 {
+	font-family: "Roboto Slab";
+}
+
+h2 {
+	margin-left: 23px;
 	font-family: "Roboto Slab";
 }
 
@@ -47,8 +55,10 @@ h1 {
     border-radius: 50%;
 }
 
-#social-table {
+.socialtable td {
 	border: 0px;
+	width: 30px;
+	align: center;
 }
 
 .pubimg {
@@ -63,10 +73,6 @@ h1 {
 }
 .publicationtable td {
 	border: 20px solid whitesmoke;
-}
-
-h2 {
-	margin-left: 23px;
 }
 
 ul {
